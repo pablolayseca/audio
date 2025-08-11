@@ -1,7 +1,2 @@
-streamlit>=1.25
-pydub>=0.25
-librosa>=0.10
-noisereduce>=2.0
-soundfile>=0.12
-numpy>=1.23
-imageio-ffmpeg>=0.4
+streamlit
+pydub

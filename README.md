@@ -1,19 +1,11 @@
-# Restaurador de Audio en Español 🎵
+# Restaurador de Audio con Streamlit
 
-Esta aplicación permite subir un archivo de audio y restaurar su calidad, manteniendo voz y música.
+Este proyecto permite subir un archivo de audio, procesarlo para mejorar su calidad (normalizando volumen) y descargarlo.
 
-## Características
-- Reducción de ruido
-- Ecualización suave (graves y voz)
-- Normalización de volumen
-- Comparación Antes / Después
-- Descarga del resultado
+## Uso en Streamlit Cloud
 
-## Despliegue en Streamlit Cloud
 1. Sube estos archivos a un repositorio en GitHub.
-2. Ve a [Streamlit Cloud](https://streamlit.io/cloud) y crea una nueva app.
-3. Selecciona tu repositorio y pon como archivo principal `restaurador_audio.py`.
-4. Espera a que se despliegue y obtendrás un link público.
+2. En Streamlit Cloud crea una nueva app.
+3. Selecciona `restaurador_audio.py` como archivo principal.
+4. Asegúrate de incluir `packages.txt` para que instale ffmpeg.
 
----
-Autor: ChatGPT
