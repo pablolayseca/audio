@@ -1,2 +1,5 @@
 streamlit
 pydub
+noisereduce
+numpy
+scipy
